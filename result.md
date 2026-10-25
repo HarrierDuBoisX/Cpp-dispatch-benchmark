@@ -3,22 +3,32 @@
 ** Copyright (c) 2026 Microsoft Corporation
 **********************************************************************
 [vcvarsall.bat] Environment initialized for: 'x64'
+
 [Compiling with MSVC...]
+
 Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
+
 benchmark.cpp
+
 Microsoft (R) Incremental Linker Version 14.51.36260.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
+
 /out:bench_msvc.exe
+
 benchmark.obj
+
 [Running Benchmark...]
+
 [+] CPU Environment Stabilized:
+
     - EfficiencyClass : 1 (P-Core)
     - Processor Group : 0
     - Logical Core Bit: 0x4
     - SMT Isolated    : Yes
+    
 Objects: 1000000 | Poly Types: 16
 
 | relative |               ns/op |                op/s |    err% |     total | C++ Dispatch Matrix Benchmark
