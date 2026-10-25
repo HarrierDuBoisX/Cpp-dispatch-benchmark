@@ -1,0 +1,534 @@
+"title";"name";"unit";"batch";"elapsed";"error %";"instructions";"branches";"branch misses";"total"
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00302988666666667;0.0103660239216922;0;0;0;0.3454192
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0151125266666667;0.00351437085244852;0;0;0;1.7113419
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00300632;0.00911964081022798;0;0;0;0.3435698
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0107448733333333;0.00347893400962562;0;0;0;1.2264937
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00296198333333333;0.00946449288636498;0;0;0;0.3391569
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0148258125;0.0019286774004761;0;0;0;1.6873619
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.00095314;0.0200171226409155;0;0;0;0.1085058
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.00264753529411765;0.00409037417944327;0;0;0;0.307667
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.0027805375;0.0111311004127382;0;0;0;0.3158952
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.01455042;0.006434232142642;0;0;0;1.6632222
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.00737333125;0.00764359608604152;0;0;0;0.843582
+"C++ Dispatch Matrix Benchmark";"01 Baseline: Direct Call (AoS) | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0246712882352941;0.0056543801056859;0;0;0;2.8175362
+"C++ Dispatch Matrix Benchmark";"01 Baseline: SoA (Data Oriented) [Seq]";"op";1000000;0.0008369;0.00310450339113023;0;0;0;0.0959251
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0076722;0.00562239002122966;0;0;0;0.87503
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0174696866666667;0.00888233260820398;0;0;0;2.010402
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00786787058823529;0.00553007032120432;0;0;0;0.8955276
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0158206375;0.0137389007009232;0;0;0;1.7967566
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.01236846;0.00298754370751197;0;0;0;1.4132234
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.02681093125;0.00674738577700471;0;0;0;3.0596788
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.0102981588235294;0.00210914095505436;0;0;0;1.1719357
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0264587941176471;0.00521301690608958;0;0;0;3.0085552
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.01039851875;0.00353095374957259;0;0;0;1.1838175
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.02698771875;0.0222707294535917;0;0;0;3.0508382
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.00821761333333333;0.00871032522148155;0;0;0;0.9378806
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.0263148533333333;0.0313149183364905;0;0;0;2.974672
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.0111077133333333;0.00102124134688799;0;0;0;1.2667139
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.02552799375;0.0070519387587003;0;0;0;2.9200407
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.01345796875;0.00164473440186819;0;0;0;1.5349351
+"C++ Dispatch Matrix Benchmark";"02 Virtual: Polymorphic | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0274058529411765;0.00226508981979503;0;0;0;3.1182449
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0185953722222222;0.0125697124597818;0;0;0;2.1084716
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0848137411764706;0.00756988662728444;0;0;0;9.7001197
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0188559133333333;0.00631408954890041;0;0;0;2.1411395
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0748533;0.00449855317379362;0;0;0;8.5338111
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0355375941176471;0.00159223129066074;0;0;0;4.0485405
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0950437058823529;0.00416961758759514;0;0;0;10.8329925
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.0269322117647059;0.0123191992836858;0;0;0;3.0645779
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0926317133333333;0.00424115912633038;0;0;0;10.5404807
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.0268471611111111;0.00683670014070721;0;0;0;3.0586226
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0930783882352941;0.0052641850644151;0;0;0;10.7049194
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.0229431;0.00556157230072892;0;0;0;2.5981887
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.0850632733333333;0.00424740347006492;0;0;0;9.6817907
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.0284650529411765;0.003947227805918;0;0;0;3.2380215
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.0922047352941177;0.0042714776073955;0;0;0;10.5487285
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.0405852133333333;0.0052799215861925;0;0;0;4.6325843
+"C++ Dispatch Matrix Benchmark";"02.1 Hierarchy: Deep Chain | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0978746823529412;0.00641628947702145;0;0;0;11.1388596
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | Mono | HeapTrash1to1 | 64B_Line (320B) [Seq]";"op";1000000;0.0148585066666667;0.00139513783088018;0;0;0;1.6939615
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | Mono | HeapTrash1to1 | 64B_Line (320B) [Rnd]";"op";1000000;0.02081921875;0.0026880808290486;0;0;0;2.3830134
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolySorted | HeapTrash1to1 | 64B_Line (320B) [Seq]";"op";1000000;0.0148445875;0.00262014870966666;0;0;0;1.6928261
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolySorted | HeapTrash1to1 | 64B_Line (320B) [Rnd]";"op";1000000;0.0173338705882353;0.00410245812058162;0;0;0;1.9858896
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapTrash1to1 | 64B_Line (320B) [Seq]";"op";1000000;0.01672079375;0.000996377448275605;0;0;0;1.9048254
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapTrash1to1 | 64B_Line (320B) [Rnd]";"op";1000000;0.02963801875;0.00117597429485062;0;0;0;3.3756365
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapCompact | 64B_Line (320B) [Seq]";"op";1000000;0.0133207764705882;0.000629223174501534;0;0;0;1.5185878
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapCompact | 64B_Line (320B) [Rnd]";"op";1000000;0.0294422666666667;0.00209388824245897;0;0;0;3.3549881
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapJitter | 64B_Line (320B) [Seq]";"op";1000000;0.01341501875;0.000617008998454517;0;0;0;1.5332788
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapJitter | 64B_Line (320B) [Rnd]";"op";1000000;0.0295126555555556;0.00202048808403747;0;0;0;3.3687632
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapTrash1to1 | 16B_Compact (264B) [Seq]";"op";1000000;0.0143543;0.00285395903852684;0;0;0;1.6361884
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapTrash1to1 | 16B_Compact (264B) [Rnd]";"op";1000000;0.0281868933333333;0.00553424102927516;0;0;0;3.2151326
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapTrash1to1 | 60B_Split (264B) [Seq]";"op";1000000;0.01451694;0.00315797807325446;0;0;0;1.6557621
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapTrash1to1 | 60B_Split (264B) [Rnd]";"op";1000000;0.027944425;0.00382637727070461;0;0;0;3.1890989
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapTrash1to1 | 256B_Heavy (320B) [Seq]";"op";1000000;0.0168696277777778;0.00132926540526605;0;0;0;1.922587
+"C++ Dispatch Matrix Benchmark";"02.2 Hierarchy: Multi Inherit (Thunks) | PolyRnd | HeapTrash1to1 | 256B_Heavy (320B) [Rnd]";"op";1000000;0.02986961875;0.00101342244393964;0;0;0;3.4059049
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0080435;0.00327419002775269;0;0;0;0.9172126
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0216338777777778;0.00153411588114764;0;0;0;2.460757
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00820005555555556;0.00275680323041206;0;0;0;0.9364698
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0176869294117647;0.00563930939976612;0;0;0;2.025839
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0132710058823529;0.001484144647576;0;0;0;1.514317
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.02892576;0.0031398328433206;0;0;0;3.2979051
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.0109009117647059;0.00350673389500141;0;0;0;1.2428387
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0284124647058824;0.00286882453770603;0;0;0;3.2407316
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.0109315055555556;0.0019172254065654;0;0;0;1.2478845
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0285862625;0.00947216645392198;0;0;0;3.2540419
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapTrash1to1 | 16B_Compact (40B) [Seq]";"op";1000000;0.0114336375;0.00293040635959942;0;0;0;1.3022612
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapTrash1to1 | 16B_Compact (40B) [Rnd]";"op";1000000;0.0287594611111111;0.00062922754337564;0;0;0;3.2813578
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.0134293666666667;0.00342760534867827;0;0;0;1.5327171
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.02942085625;0.00334907478797239;0;0;0;3.350061
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.01808986875;0.00264099923429199;0;0;0;2.0656587
+"C++ Dispatch Matrix Benchmark";"02.3 Hierarchy: Virtual Diamond | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0312960066666667;0.00171823533193084;0;0;0;3.5653761
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00792075333333333;0.00290073899389727;0;0;0;0.9061772
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0177163375;0.00258566160581675;0;0;0;2.0219896
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00793807647058824;0.0035217383322346;0;0;0;0.9055385
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0154747166666667;0.00805303639466514;0;0;0;1.7713406
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.012649;0.00150015672236468;0;0;0;1.4454883
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0263965625;0.00302502949340197;0;0;0;3.0092109
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.0104023529411765;0.00110734715648485;0;0;0;1.1867903
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0259993666666667;0.00283057431689953;0;0;0;2.9657046
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.0105215666666667;0.00308943253061776;0;0;0;1.200908
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.026205075;0.00323941461980377;0;0;0;2.9904618
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.0084739875;0.00342237249442247;0;0;0;0.9679579
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.0237576823529412;0.0022816092467462;0;0;0;2.71204
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.01125464375;0.00303683358296786;0;0;0;1.286585
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.02565870625;0.00301848580614279;0;0;0;2.9361441
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.0134791466666667;0.00202737093025456;0;0;0;1.5369957
+"C++ Dispatch Matrix Benchmark";"02.4 Hierarchy: Fat VTable (64 methods) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0269451266666667;0.00178425590771045;0;0;0;3.0813431
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00292605882352941;0.00731201336724083;0;0;0;0.3344229
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0137438529411765;0.0077985658057907;0;0;0;1.57405
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00293702352941176;0.00538251300807169;0;0;0;0.337328
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0126182125;0.00465501692709288;0;0;0;1.4367036
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00917868666666667;0.00327564082857687;0;0;0;1.0466387
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0221218066666667;0.00503628597676261;0;0;0;2.5206045
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.00769952222222222;0.00289796264880115;0;0;0;0.8780023
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.0117830133333333;0.00648691271874248;0;0;0;1.3475047
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.00923891176470588;0.00289718830482382;0;0;0;1.0539417
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0217219066666667;0.000884989732460503;0;0;0;2.482695
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.0144397235294118;0.000892943422860109;0;0;0;1.6478052
+"C++ Dispatch Matrix Benchmark";"03 Variant: std::visit | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0280170266666667;0.000789751192933595;0;0;0;3.2005203
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00791660555555556;0.00606329646773327;0;0;0;0.9057203
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0221085705882353;0.00453428739123324;0;0;0;2.5165391
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00798535555555555;0.00142525168712292;0;0;0;0.9090302
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0186271117647059;0.00701743108118171;0;0;0;2.1233196
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.01066178125;0.0045268214384771;0;0;0;1.2146748
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0228238;0.00243539826118267;0;0;0;2.5998237
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.00894401764705882;0.00486438916815017;0;0;0;1.0175662
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.02240908;0.00554132847659408;0;0;0;2.5501297
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.00904629333333333;0.00322206457653992;0;0;0;1.0298519
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0225237235294118;0.0038168336130887;0;0;0;2.5591421
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapTrash1to1 | 16B_Compact (8B) [Seq]";"op";1000000;0.00629572941176471;0.00272396273994729;0;0;0;0.723507
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapTrash1to1 | 16B_Compact (8B) [Rnd]";"op";1000000;0.01970111875;0.00623299881265852;0;0;0;2.2502798
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.00948027647058823;0.00659610595158084;0;0;0;1.0815016
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.02251164;0.00302464729115445;0;0;0;2.5656918
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.0112186733333333;0.00236253904540554;0;0;0;1.2781879
+"C++ Dispatch Matrix Benchmark";"04 Erasure: Fat Ptr (Trait Object) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0233227823529412;0.00478959615971524;0;0;0;2.656453
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00764359411764706;0.00309831719602483;0;0;0;0.8725812
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.021878425;0.00445677587203752;0;0;0;2.4905987
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00779212;0.00311004046529443;0;0;0;0.8890822
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.01825888125;0.00459278304350851;0;0;0;2.0768684
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0103374722222222;0.00253213115359111;0;0;0;1.1819174
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0226053625;0.00181771008350244;0;0;0;2.5883095
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.00856222777777778;0.00186663520396636;0;0;0;0.9762618
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.02197856;0.00118843237609743;0;0;0;2.5095849
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.00861992666666667;0.00602185705315154;0;0;0;0.9837063
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0219564882352941;0.00351117464970344;0;0;0;2.5110845
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapTrash1to1 | 16B_Compact (8B) [Seq]";"op";1000000;0.00573222222222222;0.00551542459491894;0;0;0;0.6529592
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapTrash1to1 | 16B_Compact (8B) [Rnd]";"op";1000000;0.01952473125;0.0023017749158216;0;0;0;2.2326347
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.00914192666666667;0.00219819572913095;0;0;0;1.0441883
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.0222062647058824;0.00135391328206928;0;0;0;2.5338462
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.0107918066666667;0.0022198970951492;0;0;0;1.2304483
+"C++ Dispatch Matrix Benchmark";"04.1 Erasure: C Struct* + FuncPtr | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0229015055555556;0.0032498640197703;0;0;0;2.6078903
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.0029615;0.00826308906552593;0;0;0;0.3438938
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0142027888888889;0.00656496194993507;0;0;0;1.6249185
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00295680625;0.00821801290709219;0;0;0;0.3368952
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0128153933333333;0.00198843385653885;0;0;0;1.4541134
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00298280588235294;0.00799301230969499;0;0;0;0.3411062
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0140709666666667;0.00275302519069743;0;0;0;1.6070249
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.00093458125;0.0054542729646131;0;0;0;0.1073306
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.00262417058823529;0.00454008728600762;0;0;0;0.2997848
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.0028129;0.0030190293939358;0;0;0;0.3200398
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0143762470588235;0.00416713817719506;0;0;0;1.6386454
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.008702;0.00594708106904009;0;0;0;0.9915647
+"C++ Dispatch Matrix Benchmark";"05 CRTP: Simple | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0182122176470588;0.00137666460984176;0;0;0;2.0853295
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00295865;0.00768264895220405;0;0;0;0.337715
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.01278950625;0.00722426187107548;0;0;0;1.4540248
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00295371764705882;0.0103476399225201;0;0;0;0.3376118
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0127100777777778;0.0165500516092168;0;0;0;1.4506813
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00294454666666667;0.0135620011811354;0;0;0;0.336693
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0133705;0.026239805505279;0;0;0;1.5440819
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | PolyRnd | 16B_Compact (4B) [Seq]";"op";1000000;0.000939394117647059;0.00173322863132179;0;0;0;0.1078078
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | PolyRnd | 16B_Compact (4B) [Rnd]";"op";1000000;0.00217095294117647;0.00742824562158442;0;0;0;0.2464755
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.0028279125;0.00846241223718351;0;0;0;0.3221507
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.01267544;0.00443516321650492;0;0;0;1.453322
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.0073223;0.00756292270367709;0;0;0;0.8367291
+"C++ Dispatch Matrix Benchmark";"05.1 CRTP: Wide Mixin | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.01540789375;0.00468245934531311;0;0;0;1.7601032
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00291773333333333;0.0103448650469035;0;0;0;0.3327724
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0175475470588235;0.00262753404798992;0;0;0;2.001258
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00294113125;0.00464674402937635;0;0;0;0.3380084
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0140358666666667;0.00410941456552933;0;0;0;1.6100671
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00903434375;0.00385612646728093;0;0;0;1.0327664
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0261279375;0.0144352500176816;0;0;0;2.9475784
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | PolyRnd | 16B_Compact (64B) [Seq]";"op";1000000;0.00929902666666667;0.0130727756991421;0;0;0;1.058434
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | PolyRnd | 16B_Compact (64B) [Rnd]";"op";1000000;0.0246277466666667;0.00497816679140716;0;0;0;2.8066967
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | PolyRnd | 60B_Split (64B) [Seq]";"op";1000000;0.00919579411764706;0.00496381761258476;0;0;0;1.0499719
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | PolyRnd | 60B_Split (64B) [Rnd]";"op";1000000;0.02448644;0.0030914373555336;0;0;0;2.791064
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | PolyRnd | 256B_Heavy (64B) [Seq]";"op";1000000;0.00912703888888889;0.00353527964774076;0;0;0;1.0438998
+"C++ Dispatch Matrix Benchmark";"07.1 Wrappers: std::function (In-Place SBO) | PolyRnd | 256B_Heavy (64B) [Rnd]";"op";1000000;0.0247913125;0.0027138894252521;0;0;0;2.813805
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00590950588235294;0.0034791128615582;0;0;0;0.6749687
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0305315733333333;0.00507746600021482;0;0;0;3.4696329
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00595683888888889;0.00152328016845289;0;0;0;0.6774511
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0276693933333333;0.00132909927275477;0;0;0;3.166027
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.0117507882352941;0.00252005846595869;0;0;0;1.3450749
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.03917159375;0.00414880254295386;0;0;0;4.464285
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | PolyRnd | 16B_Compact (64B) [Seq]";"op";1000000;0.00910372666666667;0.00292579298657061;0;0;0;1.0387449
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | PolyRnd | 16B_Compact (64B) [Rnd]";"op";1000000;0.02440646875;0.00233139422662299;0;0;0;2.7976963
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | PolyRnd | 60B_Split (64B) [Seq]";"op";1000000;0.0117761;0.0083394614632969;0;0;0;1.3446805
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | PolyRnd | 60B_Split (64B) [Rnd]";"op";1000000;0.0391244;0.000986817698786913;0;0;0;4.4603313
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | PolyRnd | 256B_Heavy (64B) [Seq]";"op";1000000;0.0133089875;0.00115308183202782;0;0;0;1.5228942
+"C++ Dispatch Matrix Benchmark";"07.2 Wrappers: std::function (Payload-Scaled) | PolyRnd | 256B_Heavy (64B) [Rnd]";"op";1000000;0.0401313294117647;0.00204468182373902;0;0;0;4.5770264
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00780498666666667;0.0071302173232107;0;0;0;0.8879751
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0230800277777778;0.00588690841718409;0;0;0;2.6439684
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00790303888888889;0.00193026316827418;0;0;0;0.9008971
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0192567875;0.00698531503916555;0;0;0;2.1957764
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0109754882352941;0.00348757158734711;0;0;0;1.2509615
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0235345133333333;0.00490045510132086;0;0;0;2.6827811
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.00904095;0.0055835163918472;0;0;0;1.0331269
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0234019;0.00627496319127994;0;0;0;2.669261
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.00906780555555555;0.0065888755063918;0;0;0;1.0362073
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0235130294117647;0.00670794837998214;0;0;0;2.6795057
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapTrash1to1 | 16B_Compact (8B) [Seq]";"op";1000000;0.00611374666666667;0.000769828611338183;0;0;0;0.6981451
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapTrash1to1 | 16B_Compact (8B) [Rnd]";"op";1000000;0.0202705933333333;0.00743145109187229;0;0;0;2.3323722
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.00968021875;0.0035733218275644;0;0;0;1.1049273
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.0238435944444444;0.00221990164549312;0;0;0;2.7223046
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.01143795;0.00465189454844581;0;0;0;1.3051112
+"C++ Dispatch Matrix Benchmark";"07.3 Wrappers: FuncRef (2-ptr) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.02482273125;0.00480902597538668;0;0;0;2.8395779
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00288448823529412;0.00863704727840459;0;0;0;0.3279744
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0128276466666667;0.00795118567799781;0;0;0;1.4723289
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00286215294117647;0.00419959968728112;0;0;0;0.3279799
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.01207658125;0.0089107365024342;0;0;0;1.3753365
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00680933125;0.00495695416610445;0;0;0;0.7769298
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.018866225;0.00268063909454754;0;0;0;2.1543778
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | PolyRnd | 16B_Compact (16B) [Seq]";"op";1000000;0.00502471875;0.00200375310559358;0;0;0;0.573868
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | PolyRnd | 16B_Compact (16B) [Rnd]";"op";1000000;0.0102506117647059;0.00453209345517608;0;0;0;1.1645857
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.00655474117647059;0.00481116242434075;0;0;0;0.7483403
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0181327611111111;0.00453362423870864;0;0;0;2.0699133
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.0101746933333333;0.0011884661195535;0;0;0;1.162022
+"C++ Dispatch Matrix Benchmark";"07.4 Wrappers: SBO Type Erasure | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0236136;0.00363897106749247;0;0;0;2.6979278
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00757106666666667;0.00397960387401513;0;0;0;0.8641254
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0175968555555556;0.00726459261348719;0;0;0;2.0053363
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00773637058823529;0.00472780248857704;0;0;0;0.8865539
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0155174222222222;0.0198803542880152;0;0;0;1.7777455
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0123141294117647;0.0011156334477319;0;0;0;1.4052876
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0266646588235294;0.00325387597607078;0;0;0;3.0367466
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.0102300588235294;0.000442080508464456;0;0;0;1.1654309
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0259546875;0.00369729993490151;0;0;0;2.9595246
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.0102977411764706;0.00144749859529922;0;0;0;1.1739456
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0261187266666667;0.00465187385472915;0;0;0;2.998774
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.00814104705882353;0.00737176842016904;0;0;0;0.9279517
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.02393949375;0.00706146323046289;0;0;0;2.7316855
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.0109612866666667;0.0030402614065087;0;0;0;1.2497969
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.02613473125;0.00187570601210411;0;0;0;2.9879755
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.0135261470588235;0.00416786577236314;0;0;0;1.5405235
+"C++ Dispatch Matrix Benchmark";"08.1 Pointers: std::unique_ptr | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0273689352941176;0.00556512585487916;0;0;0;3.1301591
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00819039333333333;0.00248686310479816;0;0;0;0.937926
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.02342064375;0.00578361573995224;0;0;0;2.697676
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.008553675;0.0033165599268071;0;0;0;0.9746982
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0196705533333333;0.0141518933523113;0;0;0;2.2399858
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0140363666666667;0.00139846541263735;0;0;0;1.5983468
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0305144111111111;0.00246283610590317;0;0;0;3.4768657
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.0118865117647059;0.0040982952119671;0;0;0;1.3530613
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0298689777777778;0.0022280391514163;0;0;0;3.4035288
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.0118965588235294;0.00666974736318279;0;0;0;1.3588747
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0298796;0.00355603727171187;0;0;0;3.4051223
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.0104780066666667;0.00351201661427603;0;0;0;1.1957518
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.02886923125;0.00360076334910024;0;0;0;3.2956793
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.01217133125;0.00190619335114244;0;0;0;1.3866714
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.02989654375;0.00254713982265453;0;0;0;3.4076046
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.01535312;0.00308035171456308;0;0;0;1.7512582
+"C++ Dispatch Matrix Benchmark";"08.2 Pointers: std::shared_ptr | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0307545470588235;0.00275143849342589;0;0;0;3.5136681
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00285690588235294;0.00526696394728637;0;0;0;0.3252855
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0124618470588235;0.00399177097101503;0;0;0;1.423534
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00285493333333333;0.00526706514435282;0;0;0;0.3324917
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0114457;0.00514309029219342;0;0;0;1.3103747
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00675195625;0.00253091475522373;0;0;0;0.7708394
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0189704823529412;0.00385457406010361;0;0;0;2.1640776
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | PolyRnd | 16B_Compact (16B) [Seq]";"op";1000000;0.00522535882352941;0.00467986652219071;0;0;0;0.6007092
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | PolyRnd | 16B_Compact (16B) [Rnd]";"op";1000000;0.01053936;0.00768547595473529;0;0;0;1.2036432
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.00671129333333333;0.00485527648187989;0;0;0;0.7654117
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0179125;0.00108141942586975;0;0;0;2.0486265
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.0100638;0.00185524872289791;0;0;0;1.1495888
+"C++ Dispatch Matrix Benchmark";"08.3 Pointers: Member Ptr (Non-Virtual) | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0226515588235294;0.00235467508164952;0;0;0;2.5857185
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00751342222222222;0.000878856424669482;0;0;0;0.8557838
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0175505333333333;0.0165292546221079;0;0;0;1.9855805
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00769151764705882;0.00327960047073416;0;0;0;0.8775879
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0158476733333333;0.0201688755049293;0;0;0;1.807123
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0134087823529412;0.00125389500858362;0;0;0;1.5290646
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.02660864375;0.00731150402566584;0;0;0;3.0410751
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.0106690176470588;0.00433631268222558;0;0;0;1.2183351
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0261263375;0.00282150115342558;0;0;0;2.9789148
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.0107587722222222;0.000715905084835419;0;0;0;1.2254261
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.02593382;0.00352503367087283;0;0;0;2.9554012
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.00878986875;0.00206378523577312;0;0;0;1.0060386
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.0239024875;0.0031800044539454;0;0;0;2.7227624
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.0120037058823529;0.00775994864974068;0;0;0;1.3724763
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.0258469;0.00275634171973532;0;0;0;2.9468134
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.0144124;0.0015860046729601;0;0;0;1.642094
+"C++ Dispatch Matrix Benchmark";"08.4 Pointers: Member Ptr (Virtual vcall) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.02712005625;0.00453233158110035;0;0;0;3.0868598
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00720331333333333;0.00159535379230126;0;0;0;0.8219777
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0170383882352941;0.0121766689798376;0;0;0;1.9482207
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00722204117647059;0.00498924867610099;0;0;0;0.8239584
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0141940470588235;0.00369890720131941;0;0;0;1.6238425
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00721215333333333;0.00119084389811069;0;0;0;0.8216785
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0168495533333333;0.00306453765287593;0;0;0;1.9386485
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.00536869333333333;0.00397365255258635;0;0;0;0.6126367
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0166804111111111;0.0136343439844776;0;0;0;1.8965219
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.00552113333333333;0.00921189023113115;0;0;0;0.6295148
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0165156411764706;0.00256947963538136;0;0;0;1.8893805
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.0037219;0.0064048946157785;0;0;0;0.4230952
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.01559989375;0.00645389196386272;0;0;0;1.7821907
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.00616179411764706;0.00835316739304649;0;0;0;0.7051956
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.01669044;0.00581780051705721;0;0;0;1.896845
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.0073722;0.00522740704957814;0;0;0;0.8417343
+"C++ Dispatch Matrix Benchmark";"09.1 Predictor: Final Devirt (Direct Call Only) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0179580222222222;0.0113173139147034;0;0;0;2.0540959
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0070736875;0.00252675478140091;0;0;0;0.8075427
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0160252529411765;0.00891607133400225;0;0;0;1.8537168
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00708498;0.00343875253161877;0;0;0;0.8072642
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0137174666666667;0.00995250350538204;0;0;0;1.5712305
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00707460555555556;0.00221444739265307;0;0;0;0.8064656
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0166427235294118;0.017673695488059;0;0;0;1.8907397
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.00535187222222222;0.00553975489800806;0;0;0;0.6114478
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.01588145;0.00985317396196139;0;0;0;1.8181801
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.00542336666666667;0.0019271193875817;0;0;0;0.6213814
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0159267666666667;0.00854738104142468;0;0;0;1.8275658
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.0036491125;0.00133596757134408;0;0;0;0.4140536
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.01513135;0.00400793225995096;0;0;0;1.725297
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.00606349411764706;0.00510973980579633;0;0;0;0.6907083
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.01597971875;0.00796744504942728;0;0;0;1.8284962
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.00725562666666667;0.00428763561787294;0;0;0;0.8275491
+"C++ Dispatch Matrix Benchmark";"09.2 Predictor: Final Devirt (Inline Enabled) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0170956333333333;0.00354952011036004;0;0;0;1.9523556
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.0028959625;0.00471689930728218;0;0;0;0.3314277
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0142406733333333;0.0106630317321833;0;0;0;1.6462574
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00292766666666667;0.00315788068151465;0;0;0;0.334125
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.01276779375;0.00576527292972514;0;0;0;1.4651146
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.0092203;0.00428223900336417;0;0;0;1.0520022
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0225233333333333;0.00350008244868065;0;0;0;2.5690391
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.00756105294117647;0.00273396292243708;0;0;0;0.8623388
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.0120745555555556;0.00354109967458528;0;0;0;1.3762121
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.00896722;0.0023427539872337;0;0;0;1.0228101
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.02255069375;0.00139556424276696;0;0;0;2.5715803
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.0139622352941176;0.00109119796260604;0;0;0;1.5916351
+"C++ Dispatch Matrix Benchmark";"09.3 Predictor: Manual Switch | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0274074882352941;0.000660866742424135;0;0;0;3.1249147
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00373149411764706;0.00646453906748041;0;0;0;0.4264471
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0259416411764706;0.00356803617999973;0;0;0;2.950961
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00372460625;0.00200085078192914;0;0;0;0.4260049
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.02004774375;0.00140247506618481;0;0;0;2.2844021
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.0121134117647059;0.00105184946829452;0;0;0;1.3822015
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.03586583125;0.0023825463827816;0;0;0;4.0895995
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.0109106125;0.00384104460285095;0;0;0;1.2434417
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.01434444375;0.00270868592843332;0;0;0;1.6381217
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.01171185;0.00393768283323434;0;0;0;1.3361609
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0352987625;0.00532231489055271;0;0;0;4.0177925
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.0177977533333333;0.0016147292219217;0;0;0;2.0294735
+"C++ Dispatch Matrix Benchmark";"10.1 Hash: std::unordered_map | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0433043466666667;0.00112159251746354;0;0;0;4.9369151
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00306762;0.0137659550478798;0;0;0;0.3476895
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0165718352941176;0.00327215283834265;0;0;0;1.9002435
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.0032840125;0.031612582327708;0;0;0;0.3724818
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0150218266666667;0.00913902761144911;0;0;0;1.7165184
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00869936;0.00443339871290293;0;0;0;0.9904691
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0250283375;0.00230644912208517;0;0;0;2.8512003
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.00721499333333333;0.000548233449451573;0;0;0;0.8230945
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.01092090625;0.00673246399755145;0;0;0;1.2442267
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.00856238888888889;0.00070373090847254;0;0;0;0.9760501
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0244307333333333;0.00384207218550675;0;0;0;2.7850757
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.01328594375;0.00124232093334186;0;0;0;1.5175637
+"C++ Dispatch Matrix Benchmark";"10.2 Hash: Compile-Time Perfect Hash | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0303075294117647;0.00174479216286183;0;0;0;3.4537437
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00292839444444444;0.0110011079294806;0;0;0;0.3356992
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0126730411764706;0.00695815207912109;0;0;0;1.4474892
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00292807647058823;0.00518478390518567;0;0;0;0.3349409
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0127370117647059;0.00742696906802084;0;0;0;1.4447864
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00831662941176471;0.00325797336093653;0;0;0;0.9496974
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.021231375;0.00330917791242075;0;0;0;2.4234767
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.0066182125;0.00208432803353703;0;0;0;0.7548951
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.0106929866666667;0.00211896891742791;0;0;0;1.2177496
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.00807514117647059;0.00170789321915446;0;0;0;0.9211261
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0205845764705882;0.00195781163956478;0;0;0;2.3464618
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.0126028647058824;0.00453499901172255;0;0;0;1.4380119
+"C++ Dispatch Matrix Benchmark";"11.1 Advanced: Flat LUT (8-bit, 256B) | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0253871705882353;0.000663440067557676;0;0;0;2.8957067
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00291524117647059;0.00148676468230648;0;0;0;0.3357077
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.01262570625;0.00810841894971883;0;0;0;1.4401771
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00296262;0.0039081363119617;0;0;0;0.3370432
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0124130733333333;0.00540791554828598;0;0;0;1.41526
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00821217333333333;0.00238955175341704;0;0;0;0.9363472
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0211986375;0.00479889458697742;0;0;0;2.4242104
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.00681095294117647;0.0049190778823526;0;0;0;0.7778894
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.01065258125;0.00594039980440892;0;0;0;1.215719
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.00818208;0.00498797008778588;0;0;0;0.9311124
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0205903625;0.00288125440075632;0;0;0;2.3466272
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.01252473125;0.00289640594490826;0;0;0;1.4292988
+"C++ Dispatch Matrix Benchmark";"11.2 Advanced: Flat LUT (16-bit, 64KB) | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0255699466666667;0.00162400652128049;0;0;0;2.9139361
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00307756875;0.00955819489122479;0;0;0;0.3519557
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.01684035625;0.00694610782128877;0;0;0;1.9175911
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00315333333333333;0.00933918824749348;0;0;0;0.3580544
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.01577868;0.00615031101145215;0;0;0;1.799182
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00947926666666667;0.00157807416838552;0;0;0;1.0821306
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.02622086;0.00322799841479667;0;0;0;2.990312
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.00818194;0.00207811824902444;0;0;0;0.9319684
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.0121967764705882;0.0112822137847282;0;0;0;1.3936171
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.00937771875;0.0023963689031885;0;0;0;1.0705658
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.02491958125;0.00447254642953841;0;0;0;2.8376945
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.01428335625;0.00127605476637132;0;0;0;1.6287109
+"C++ Dispatch Matrix Benchmark";"11.3 Advanced: Hash (Linear Probe) | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0306492625;0.0022634312526664;0;0;0;3.4923102
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00314317058823529;0.0107479897173404;0;0;0;0.3583382
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0171093764705882;0.00679089308002414;0;0;0;1.9462277
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00324687058823529;0.00586148739456751;0;0;0;0.3714487
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0182887;0.00354047370526081;0;0;0;2.0932165
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.012807475;0.0014365463632181;0;0;0;1.4620289
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0309436058823529;0.0019019405469309;0;0;0;3.525513
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.0117362352941176;0.00380913282034496;0;0;0;1.3377631
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.0155378764705882;0.00508496331789575;0;0;0;1.7722494
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.0128072294117647;0.00148988725799105;0;0;0;1.4618198
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0288593;0.00203535860939802;0;0;0;3.2885759
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.01815494375;0.00292521485732997;0;0;0;2.071159
+"C++ Dispatch Matrix Benchmark";"11.4 Advanced: AVX2 SIMD Search | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0361627;0.00144902953790978;0;0;0;4.1207502
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00412317333333333;0.00486342377885169;0;0;0;0.4709528
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0270422125;0.00652478174005854;0;0;0;3.0772903
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00420253125;0.00616476868628124;0;0;0;0.4801563
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0253774333333333;0.00549367157022299;0;0;0;2.8813504
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.0143852352941176;0.00197319977050389;0;0;0;1.640087
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0372444466666667;0.00830261349495042;0;0;0;4.2589426
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.013279325;0.00141889570529077;0;0;0;1.5140247
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.01584556875;0.00743563962197259;0;0;0;1.8082814
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.0140069111111111;0.00216701706500223;0;0;0;1.6007991
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0361791533333333;0.00207658319156763;0;0;0;4.1500208
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.0185369466666667;0.000452574568811361;0;0;0;2.1159701
+"C++ Dispatch Matrix Benchmark";"11.5 Advanced: Branchless BinSearch | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.04435358;0.00298905055018617;0;0;0;5.0500417
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.0045397625;0.00342751293644387;0;0;0;0.5188399
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.03591765625;0.00987947713395948;0;0;0;4.1074215
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00425816875;0.00331211477770577;0;0;0;0.4888332
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0300426055555556;0.00784456438025676;0;0;0;3.4361454
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.0147076866666667;0.00165061117562063;0;0;0;1.6774969
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0410157294117647;0.00156956770027619;0;0;0;4.6761293
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.0140596733333333;0.00162155102268885;0;0;0;1.6028575
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.0157025764705882;0.00223730292093798;0;0;0;1.7882516
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.014408875;0.00116401321718234;0;0;0;1.6414787
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.03963258;0.00747587719847429;0;0;0;4.5179755
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.01880525;0.00104383024611018;0;0;0;2.1424799
+"C++ Dispatch Matrix Benchmark";"11.6 Advanced: Eytzinger BFS Search | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0476779882352941;0.00207989233197236;0;0;0;5.4385166
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00287038125;0.00252665721593884;0;0;0;0.3276786
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0126296;0.0112203555700539;0;0;0;1.4394708
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00288071333333333;0.00617380433659472;0;0;0;0.3292125
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0121892066666667;0.00370922463330556;0;0;0;1.3896725
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00765885882352941;0.00673100660253829;0;0;0;0.8711702
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0199597733333333;0.00177813761492626;0;0;0;2.2748893
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.00578991111111111;0.00265956116278751;0;0;0;0.6605432
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.0103879352941176;0.00241919390356196;0;0;0;1.183035
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.00724198;0.00667381964927212;0;0;0;0.8287577
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.0196114941176471;0.0119090653309526;0;0;0;2.2345755
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.0125775266666667;0.0017612588885963;0;0;0;1.4345955
+"C++ Dispatch Matrix Benchmark";"12.1 Table: Direct FnPtr Array (No Switch) | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0236264705882353;0.00241140312192881;0;0;0;2.6937176
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.009548;0.00402944630767709;0;0;0;1.0885016
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0173012705882353;0.00337872495213568;0;0;0;1.9824823
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00971218666666667;0.00476430555498605;0;0;0;1.1100816
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0155640666666667;0.0127123957211175;0;0;0;1.7788399
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.0107503333333333;0.001948268095461;0;0;0;1.2290856
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.01949388;0.00734646406847001;0;0;0;2.2335014
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.00952722352941176;0.00111771826576797;0;0;0;1.0912656
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0194444266666667;0.00255843837917518;0;0;0;2.2177295
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.00944855882352941;0.00153099140769199;0;0;0;1.0784075
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.01956164;0.00215748998775461;0;0;0;2.2305945
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapTrash1to1 | 16B_Compact (8B) [Seq]";"op";1000000;0.0063655;0.00282838934097374;0;0;0;0.7266985
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapTrash1to1 | 16B_Compact (8B) [Rnd]";"op";1000000;0.0167498941176471;0.00943313398207669;0;0;0;1.9059806
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.0095732;0.00623396180452717;0;0;0;1.089607
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.0193649625;0.0025724435316292;0;0;0;2.2098244
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.0112329222222222;0.00440363170606948;0;0;0;1.2842587
+"C++ Dispatch Matrix Benchmark";"12.2 Pointers: 64-bit Tagged Pointer (48b Addr + 16b Tag) | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.02024352;0.0103093049841441;0;0;0;2.3064572
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00877272;0.00618569498999473;0;0;0;1.0013685
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0251789133333333;0.00872636373689891;0;0;0;2.881864
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00906399411764706;0.0042316600907464;0;0;0;1.0332343
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0236553;0.00456224939677403;0;0;0;2.7007322
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.01507518125;0.00256355727543115;0;0;0;1.7176314
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0352305466666667;0.00506333968930601;0;0;0;4.0168217
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.0124079066666667;0.00727836069788053;0;0;0;1.4139936
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0347054333333333;0.00728225551011279;0;0;0;3.9593375
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.0125648733333333;0.00159264667612945;0;0;0;1.432457
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0350026764705882;0.00194494734163095;0;0;0;3.9762271
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.00954253333333333;0.00541381532620723;0;0;0;1.0916994
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.0331668470588235;0.0053596103921344;0;0;0;3.778586
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.0130841294117647;0.00250072502555004;0;0;0;1.4954151
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.0347868411764706;0.00343402692992993;0;0;0;3.964734
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.0167063388888889;0.00251395662424541;0;0;0;1.9074564
+"C++ Dispatch Matrix Benchmark";"13.1 PIC: Speculative Bimorphic Inline Cache | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0359998944444444;0.00241229115409295;0;0;0;4.1118475
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.00941219375;0.00657518323027133;0;0;0;1.0768834
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.05099774;0.0047283111113225;0;0;0;5.8134644
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.125597805882353;0.00136790032669784;0;0;0;14.3085551
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.211660475;0.00113000762540876;0;0;0;24.105847
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.14739384;0.00119757395162577;0;0;0;16.7895045
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.254969105882353;0.00301529070803613;0;0;0;29.091893
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.127370341176471;0.00101939010942726;0;0;0;14.5282801
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.25703024375;0.0226515852531026;0;0;0;29.7691695
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.127806175;0.000800043420720737;0;0;0;14.5638459
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.26525374;0.0207678447077074;0;0;0;30.4882929
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.115355294444444;0.00143474348172779;0;0;0;13.1444537
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.24998541875;0.0215614348139676;0;0;0;28.5616411
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Seq]";"op";1000000;0.134880833333333;0.000764319628655116;0;0;0;15.3760122
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapTrash1to1 | 60B_Split (64B) [Rnd]";"op";1000000;0.253424927777778;0.00297549874673709;0;0;0;28.898713
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.145582188888889;0.000707443062076472;0;0;0;16.5924849
+"C++ Dispatch Matrix Benchmark";"13.2 RTTI: dynamic_cast Cascade | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.267115022222222;0.00565632637183831;0;0;0;30.2892415
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00297926470588235;0.0162219637306892;0;0;0;0.3383962
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0151196866666667;0.00303215651517831;0;0;0;1.7251852
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.0465362055555556;0.00254295361763292;0;0;0;5.3050711
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0972152875;0.00137369372356226;0;0;0;11.0886386
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.0553416;0.00118069885666426;0;0;0;6.3137014
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.142529513333333;0.00233957390049709;0;0;0;16.2624977
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | PolyRnd | 16B_Compact (64B) [Seq]";"op";1000000;0.0551950866666667;0.000603915905162991;0;0;0;6.2944594
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | PolyRnd | 16B_Compact (64B) [Rnd]";"op";1000000;0.14226638125;0.00174831504249683;0;0;0;16.2263307
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | PolyRnd | 60B_Split (64B) [Seq]";"op";1000000;0.05528226;0.00346294557676982;0;0;0;6.3056614
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | PolyRnd | 60B_Split (64B) [Rnd]";"op";1000000;0.141953594117647;0.00228120663321038;0;0;0;16.1739446
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | PolyRnd | 256B_Heavy (64B) [Seq]";"op";1000000;0.0552007222222222;0.00194936904284179;0;0;0;6.2998125
+"C++ Dispatch Matrix Benchmark";"13.3 RTTI: std::any (In-Place SBO) | PolyRnd | 256B_Heavy (64B) [Rnd]";"op";1000000;0.142674186666667;0.00190162913065711;0;0;0;16.2578303
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00604462941176471;0.00529836651069419;0;0;0;0.6870845
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.0308530533333333;0.0131814924006236;0;0;0;3.530291
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.0540622222222222;0.00477283861725462;0;0;0;6.1689995
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.143597576470588;0.00228501105538122;0;0;0;16.3616077
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.0622281222222222;0.002093389326434;0;0;0;7.0875615
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.1661047875;0.00368159557208504;0;0;0;18.9174941
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | PolyRnd | 16B_Compact (64B) [Seq]";"op";1000000;0.05652255;0.00195268937041057;0;0;0;6.4393655
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | PolyRnd | 16B_Compact (64B) [Rnd]";"op";1000000;0.14935104375;0.00785180824138232;0;0;0;17.0516656
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | PolyRnd | 60B_Split (64B) [Seq]";"op";1000000;0.0627210125;0.000867433695198718;0;0;0;7.156031
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | PolyRnd | 60B_Split (64B) [Rnd]";"op";1000000;0.166273313333333;0.000758620618032496;0;0;0;18.9595064
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | PolyRnd | 256B_Heavy (64B) [Seq]";"op";1000000;0.0737285466666667;0.00266143616104224;0;0;0;8.4120128
+"C++ Dispatch Matrix Benchmark";"13.4 RTTI: std::any (Payload-Scaled) | PolyRnd | 256B_Heavy (64B) [Rnd]";"op";1000000;0.166300206666667;0.00107144007328751;0;0;0;18.9602526
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | Mono | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.01689114;0.00196093757087731;0;0;0;1.9309041
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | Mono | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0302947533333333;0.00532034933446389;0;0;0;3.4489592
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.01718308;0.00245941081991121;0;0;0;1.9628387
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolySorted | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0283681611111111;0.00629439329192808;0;0;0;3.2329993
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Seq]";"op";1000000;0.02060915;0.00631864687900795;0;0;0;2.3487192
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapTrash1to1 | 64B_Line (64B) [Rnd]";"op";1000000;0.0419882235294118;0.00321988981106366;0;0;0;4.7983831
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapCompact | 64B_Line (64B) [Seq]";"op";1000000;0.01856714;0.00126467639060319;0;0;0;2.1251825
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapCompact | 64B_Line (64B) [Rnd]";"op";1000000;0.0415715823529412;0.00321868352522069;0;0;0;4.7444111
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapJitter | 64B_Line (64B) [Seq]";"op";1000000;0.0187375066666667;0.00100230733507739;0;0;0;2.1344679
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapJitter | 64B_Line (64B) [Rnd]";"op";1000000;0.0415189625;0.00219126550823385;0;0;0;4.7415768
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Seq]";"op";1000000;0.0164165722222222;0.000600573178315611;0;0;0;1.8727323
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapTrash1to1 | 16B_Compact (16B) [Rnd]";"op";1000000;0.03731838;0.00173934051086804;0;0;0;4.2702549
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapTrash1to1 | 60B_Split (40B) [Seq]";"op";1000000;0.01834883125;0.00186941083527988;0;0;0;2.0925819
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapTrash1to1 | 60B_Split (40B) [Rnd]";"op";1000000;0.0393767625;0.00188373274865237;0;0;0;4.4959093
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Seq]";"op";1000000;0.0240456352941176;0.000738112532416555;0;0;0;2.7425883
+"C++ Dispatch Matrix Benchmark";"14.1 C++20 Coroutine: coroutine_handle::resume() | PolyRnd | HeapTrash1to1 | 256B_Heavy (256B) [Rnd]";"op";1000000;0.043027725;0.0047854180483296;0;0;0;4.8986593
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | Mono | 64B_Line (64B) [Seq]";"op";1000000;0.00293645555555556;0.00817088759137452;0;0;0;0.3343147
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | Mono | 64B_Line (64B) [Rnd]";"op";1000000;0.01435403125;0.00429249447969165;0;0;0;1.6410435
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | PolySorted | 64B_Line (64B) [Seq]";"op";1000000;0.00295024117647059;0.00323796965341256;0;0;0;0.338069
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | PolySorted | 64B_Line (64B) [Rnd]";"op";1000000;0.0129542411764706;0.00779112462779077;0;0;0;1.4830589
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | PolyRnd | 64B_Line (64B) [Seq]";"op";1000000;0.00296485;0.00436432209035793;0;0;0;0.3373964
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | PolyRnd | 64B_Line (64B) [Rnd]";"op";1000000;0.0145786375;0.00254968421929338;0;0;0;1.6614049
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | PolyRnd | 16B_Compact (8B) [Seq]";"op";1000000;0.00103615294117647;0.000576203539373647;0;0;0;0.119107
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | PolyRnd | 16B_Compact (8B) [Rnd]";"op";1000000;0.00277125;0.0113612776818523;0;0;0;0.3146107
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | PolyRnd | 60B_Split (60B) [Seq]";"op";1000000;0.00280292352941176;0.0053708226355229;0;0;0;0.3197027
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | PolyRnd | 60B_Split (60B) [Rnd]";"op";1000000;0.01422258125;0.00533880159617529;0;0;0;1.6245723
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | PolyRnd | 256B_Heavy (256B) [Seq]";"op";1000000;0.00725139375;0.00456082922516021;0;0;0;0.8287908
+"C++ Dispatch Matrix Benchmark";"15.1 Data-Driven: Branchless Parameter LUT | PolyRnd | 256B_Heavy (256B) [Rnd]";"op";1000000;0.0174578529411765;0.0062210839447958;0;0;0;1.9876196
+"C++ Dispatch Matrix Benchmark";"35 ECS: Archetype Buckets (AoS) | 64B_Line (64B) [Seq]";"op";1000000;0.00285315882352941;0.0122451888809695;0;0;0;0.3265984
+"C++ Dispatch Matrix Benchmark";"35 ECS: Archetype Buckets (AoS) | 16B_Compact (4B) [Seq]";"op";1000000;0.000797676470588235;0.00106857915883063;0;0;0;0.091027
+"C++ Dispatch Matrix Benchmark";"35 ECS: Archetype Buckets (AoS) | 60B_Split (60B) [Seq]";"op";1000000;0.00267779375;0.0104580130685425;0;0;0;0.3051409
+"C++ Dispatch Matrix Benchmark";"35 ECS: Archetype Buckets (AoS) | 256B_Heavy (256B) [Seq]";"op";1000000;0.00702170588235294;0.00216707514072562;0;0;0;0.8002915
+"C++ Dispatch Matrix Benchmark";"15.0 ECS: SoA Hot/Cold Split (4B Hot Stream) | 64B_Line (64B Total) [Seq]";"op";1000000;0.000740317647058824;0.00327638847922959;0;0;0;0.0844203
+"C++ Dispatch Matrix Benchmark";"15.0 ECS: SoA Hot/Cold Split (4B Hot Stream) | 16B_Compact (4B Total) [Seq]";"op";1000000;0.000744017647058824;0.00312477694327013;0;0;0;0.0847441
+"C++ Dispatch Matrix Benchmark";"15.0 ECS: SoA Hot/Cold Split (4B Hot Stream) | 60B_Split (60B Total) [Seq]";"op";1000000;0.00074075;0.00275982767905219;0;0;0;0.0843955
+"C++ Dispatch Matrix Benchmark";"15.0 ECS: SoA Hot/Cold Split (4B Hot Stream) | 256B_Heavy (256B Total) [Seq]";"op";1000000;0.0007434;0.00137395942778618;0;0;0;0.0847469
